@@ -1,0 +1,186 @@
+.main{
+    background-color: white;
+    width: 980px;;
+    height: 465px;
+    
+    margin-left: 220px;
+}
+.main .focus{
+    width: 721px;
+    height: 465px;
+
+    float: left;
+}
+.main .focus ul li img{
+    width: 100%;
+    height: 100%;
+    margin-top: 16.5px;
+}
+.newsflash{
+    width: 250px;
+    height: 465px;
+    float: right;
+    border: 1px solid #ccc;
+}
+.newsflash .new{
+    height: 165px;
+    background-color: white;
+    
+}
+.new .new_hd{
+    height: 33px;
+    line-height: 33px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #ccc;
+}
+.new .new_hd h5{
+    float: left;
+
+}
+.new .new_hd a{
+    float: right;
+}
+.new .new_hd a::after{
+    content: '1';
+
+}
+.new .new_bd{
+    
+    padding: 5px 15px 0;
+}
+.lifeservice{
+    border: 1px solid #ccc;
+    border-left:0 ;
+    border-bottom: 0;
+    height: 209px;
+    background-color: white;
+    overflow: hidden;
+}
+.newsflash .bargain img{
+    margin-top: 5px;
+    width: 250px;
+    height: 100%;
+
+}
+.new .new_bd ul li{
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li{
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    
+    text-align: center;
+
+}
+.lifeservice ul li i{
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    background-color: pink;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+/* 推荐模块开始 */
+.recom{
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+.recom .recom_hd{
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+.recom .recom_hd p{
+    font-size: 16px;
+    color: white;
+}
+.recom .recom_bd{
+    float: left;
+}
+.recom .recom_bd li{
+    position: relative;
+    float: left;
+}
+.recom .recom_bd li:nth-child(-n+3)::after{
+    content: '';
+    width: 2px;
+    height: 145px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: #ddd;
+}
+/* floor模块开始 */
+.floor .w{
+    margin-top: 30px;
+}
+.floor .box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623;   
+}
+.floor .box_hd h3{
+    line-height: 30px;
+    color: #c81623;
+    font-weight: 400;
+    float: left;
+}
+.box_hd .tab_list{
+    float: right;
+}
+.box_hd .tab_list ul li{
+    float: left;
+}
+.box_hd .tab_list ul li a{
+    padding: 0 15px;
+    line-height: 30px;
+}
+.floor .box_bd .tab_content>div{
+    float: left;
+    height: 361px;
+}
+.tab_content .col_210{
+    width: 210px;
+    text-align: center;
+}
+.tab_content .col_329{
+    width: 329px;
+}
+.tab_content .col_221{
+    width: 221px;
+}
+.box_bd{
+    height: 361px;
+}
+.tab_content .col_219{
+    width: 219px;
+
+}
+
+.col_210 ul{
+    margin-left: 12px;
+}
+
+
+.col_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom:1px solid #ccc ;
+    line-height: 34px;
+    text-align: center;
+    margin-right: 10px;
+}

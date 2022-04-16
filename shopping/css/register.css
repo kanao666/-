@@ -1,0 +1,108 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.style_color{
+    color: rgb(134, 31, 31);
+}
+header{
+    height: 84px;
+    border-bottom: 2px solid rgb(136, 22, 22);
+}
+.logo {
+    padding-top: 20px;
+}
+.registerarea{
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3{
+    padding: 0 10px;
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    font-weight: 800;
+}
+.registerarea h3 .login{
+    float: right;
+    font-weight: 400;
+}
+
+.reg_form{
+    width: 600px;
+    
+    margin: 50px auto 0;
+}
+
+.reg_form ul li{
+    margin-bottom: 20px;
+    
+}
+.reg_form ul li label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.reg_form ul li .inp{
+    width: 242px;
+    height: 37px;
+    border: 1px solid rgb(82, 61, 61);
+}
+.error{
+    color: rgb(185, 10, 10);
+}
+.reg_form ul li span{
+    margin-left: 5px;
+}
+.reg_form .safe em{
+    padding: 0 12px;
+    background-color: rebeccapurple;
+    color: white;
+}
+.reg_form .safe em:nth-child(1){
+    background-color: rgb(139, 37, 37);
+}
+.reg_form .safe em:nth-child(2){
+    background-color: rgb(29, 124, 29);
+}
+.reg_form .safe em:nth-child(3){
+    background-color: rgb(153, 153, 34);
+}
+.safe{
+    margin-left: 154px;
+}
+.agree a{
+    color: blue;
+}
+.agree{
+    padding-left: 100px;
+    
+}
+.agree input{
+    vertical-align: middle;
+}
+.btn{
+    width: 200px;
+    height: 34px;
+    background-color: rgb(161, 33, 33);
+    color: white;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.mod_copyright{
+    padding-top: 20px;
+    text-align: center;
+}
+.mod_copyright .link{
+    margin-bottom: 5px;
+}
+.link a{
+    margin: 0 5px;
+}
+.mod_copyright .copyright{
+    line-height: 20px;
+}
